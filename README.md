@@ -23,17 +23,14 @@ Figure 1. Schematic of components
 
 ## Software design
 
-#### in "SRC" folder contains the following code needed to work together for the buoyancy chamber system:
-##### Closed_Loop_Controller.py
-
-##### main.py
-
-##### motor_driver.py
-
-##### pressure_sensor.py
+#### "src" folder contains the following code needed to work together for the buoyancy chamber system:
+##### Closed_Loop_Controller.py, main.py, motor_driver.py, pressure_sensor.py
 
 #### Also, there is a firmware.bin folder that is the firmware needed for the STM32 
 
+The remaining files of code are either still in prototyping phase or to support requirements for the 405 course that the team used this project for credit to support an assignment. 
+
+### I2C w/ Pressure Sensor
 To measure pressure, we used a Honeywell Board Mount Pressure Sensor, which uses I^2C communication. A class was made to use this sensor. Details on how the data was collected and process is linked below. Pressure Sensor: SSCMANV030PA2A3
 https://alialauren1.github.io/ME405-Term-Project/index.html#autotoc_md1
 
