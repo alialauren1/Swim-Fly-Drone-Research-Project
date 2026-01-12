@@ -32,7 +32,7 @@ Also, there is a firmware.bin folder that is the firmware needed for the STM32
 
 The remaining files of code are either still in prototyping phase or to support requirements for the 405 course that the team used this project for credit to support an assignment. 
 
-### main.py
+#### main.py
 main.py uses the other three (motor_driver.py, pressure_sensor.py, Closed_Loop_Controller.py) to run the main program. 
 
 Command depth location: Line 86 in main.py is where you can change the desired depth set point for the chamber to go up or down. 
