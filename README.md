@@ -38,6 +38,12 @@ Pressure Sensor: SSCMANV030PA2A3
 
 Attaching the sensor and the Ametek motor to our Nucleo, we were able to program both components to get a functioning product.
 
+Pressure sensor datasheet:
+[SSCMANV030PA2A3 Honeywell.pdf](https://github.com/alialauren1/ME405-Term-Project/files/14630972/SSCMANV030PA2A3.Honeywell.pdf)
+
+I2C Communications with Honeywell Pressure Sensors:
+[sps-siot-i2c-comms-digital-output-pressure-sensors-tn-008201-3-en-ciid-45841.pdf](https://github.com/alialauren1/ME405-Term-Project/files/14630975/sps-siot-i2c-comms-digital-output-pressure-sensors-tn-008201-3-en-ciid-45841.pdf)
+
 ## Hardware design
 We have integrated Ametck Pittman's PG6712A077-R3 motor to a 50 CC syringe. Utilizing this motor, we've have attached a worm gear and gears to ensure sufficient torque to be generated. These gears are attached to a pinion and aligned with a rack that allows for the syringe to be moved back and forth. This allows
 for the system to achieve the desired weight to submerge the whole system.
@@ -126,10 +132,3 @@ Figure 12. Collection of gears tested
 ## Safety
 Our project prioritizes user safety through thoughtful design considerations. By utilizing small gears, we have effectively reduced the risk of injuries to the user. Once the system has been fully assembled, all moving components and electrical elements will be enclosed and inaccessible to the user. This design ensures that users are protected from potential hazards during the system's operation.
 
-## Additional files
-
-Pressure sensor datasheet:
-[SSCMANV030PA2A3 Honeywell.pdf](https://github.com/alialauren1/ME405-Term-Project/files/14630972/SSCMANV030PA2A3.Honeywell.pdf)
-
-I2C Communications with Honeywell Pressure Sensors:
-[sps-siot-i2c-comms-digital-output-pressure-sensors-tn-008201-3-en-ciid-45841.pdf](https://github.com/alialauren1/ME405-Term-Project/files/14630975/sps-siot-i2c-comms-digital-output-pressure-sensors-tn-008201-3-en-ciid-45841.pdf)
