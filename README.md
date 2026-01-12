@@ -21,6 +21,25 @@ The power supply provides power to the motor. The power supply was set to 12V wi
 
 Figure 1. Schematic of components
 
+## Software design
+
+in "SRC" folder contains the following folders needed to work together for the buoyancy chamber system:
+Closed_Loop_Controller.py
+main.py
+motor_driver.py
+pressure_sensor.py
+
+Also, there is a firmware.bin folder that is the firmware needed for the STM32 
+
+To measure pressure, we used a Honeywell Board Mount Pressure Sensor, which uses I^2C communication. A class was made to use this sensor. Details on how the data was collected and process is linked below. Pressure Sensor: SSCMANV030PA2A3
+https://alialauren1.github.io/ME405-Term-Project/index.html#autotoc_md1
+
+Attaching the sensor and the Ametek motor to our Nucleo, we were able to program both components to get a functioning product.
+
+### Tasks and States
+The Tasks and States used in the main program are shown in diagrams linked on the page below.
+https://alialauren1.github.io/ME405-Term-Project/index.html#T_S_sec
+
 ## Hardware design
 We have integrated Ametck Pittman's PG6712A077-R3 motor to a 50 CC syringe. Utilizing this motor, we've have attached a worm gear and gears to ensure sufficient torque to be generated. These gears are attached to a pinion and aligned with a rack that allows for the syringe to be moved back and forth. This allows
 for the system to achieve the desired weight to submerge the whole system.
@@ -57,17 +76,6 @@ ENA - Yellow Wire - D6 on board, PB_10 in software
 OUT3 to DC Motor Wire 1  
 
 OUT4 to DC Motor Wire 2 
-
-
-## Software design
-To measure pressure, we used a Honeywell Board Mount Pressure Sensor, which uses I^2C communication. A class was made to use this sensor. Details on how the data was collected and process is linked below. Pressure Sensor: SSCMANV030PA2A3
-https://alialauren1.github.io/ME405-Term-Project/index.html#autotoc_md1
-
-Attaching the sensor and the Ametek motor to our Nucleo, we were able to program both components to get a functioning product.
-
-### Tasks and States
-The Tasks and States used in the main program are shown in diagrams linked on the page below.
-https://alialauren1.github.io/ME405-Term-Project/index.html#T_S_sec
 
 ## Testing and Results
 
