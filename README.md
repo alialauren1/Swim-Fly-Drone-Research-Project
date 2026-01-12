@@ -23,11 +23,15 @@ Figure 1. Schematic of components
 
 ## Software design
 
-in "SRC" folder contains the following folders needed to work together for the buoyancy chamber system:
+### in "SRC" folder contains the following folders needed to work together for the buoyancy chamber system:
 Closed_Loop_Controller.py
+
 main.py
+
 motor_driver.py
+
 pressure_sensor.py
+
 
 Also, there is a firmware.bin folder that is the firmware needed for the STM32 
 
