@@ -38,10 +38,6 @@ https://alialauren1.github.io/ME405-Term-Project/index.html#autotoc_md1
 
 Attaching the sensor and the Ametek motor to our Nucleo, we were able to program both components to get a functioning product.
 
-### Tasks and States
-The Tasks and States used in the main program are shown in diagrams linked on the page below.
-https://alialauren1.github.io/ME405-Term-Project/index.html#T_S_sec
-
 ## Hardware design
 We have integrated Ametck Pittman's PG6712A077-R3 motor to a 50 CC syringe. Utilizing this motor, we've have attached a worm gear and gears to ensure sufficient torque to be generated. These gears are attached to a pinion and aligned with a rack that allows for the syringe to be moved back and forth. This allows
 for the system to achieve the desired weight to submerge the whole system.
