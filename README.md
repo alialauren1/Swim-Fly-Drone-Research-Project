@@ -30,7 +30,7 @@ main.py, motor_driver.py, pressure_sensor.py, Closed_Loop_Controller.py
 
 Also, there is a firmware.bin folder that is the firmware needed for the STM32 
 
-The remaining files of code are either still in prototyping phase or to support requirements for the 405 course that the team used this project for credit to support an assignment. 
+Note: Any other files of code in "src" folder are either still in prototyping phase or to support requirements for the 405 course that the team used this project for credit to support an assignment. 
 
 #### main.py
 main.py uses the other three (motor_driver.py, pressure_sensor.py, Closed_Loop_Controller.py) to run the main program. 
