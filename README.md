@@ -33,10 +33,11 @@ Also, there is a firmware.bin folder that is the firmware needed for the STM32
 Note: Any other files of code in "src" folder are either still in prototyping phase or to support requirements for the 405 course that the team used this project for credit to support an assignment. 
 
 #### main.py
-main.py uses the other three (motor_driver.py, pressure_sensor.py, Closed_Loop_Controller.py) to run the main program. 
+main.py uses the other three (Closed_Loop_Controller.py, motor_driver.py, pressure_sensor.py) to run the main program. 
 
-Command depth location: Line 86 in main.py is where you can change the desired depth set point for the chamber to go up or down. 
-Control: Line 91 is where Kp can be adjusted if desired. 
+Within main.py, the depth is commanded on Line 86, otherwise known as “setpoint_p”, the set point pressure. This value is what controls whether the chamber goes up or down. 
+
+Also, line 91 is where Kp can be adjusted if desired. 
 
 ### I2C w/ Pressure Sensor
 To measure pressure, we used a Honeywell Board Mount Pressure Sensor, which uses I^2C communication. A class was made to use this sensor. 
